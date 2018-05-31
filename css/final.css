@@ -600,4 +600,5 @@ section {
 
 .nav-brand {
   padding: 0px 30px;
+  cursor: none;
 }
