@@ -527,20 +527,6 @@ section {
   padding-left: 30px;
 }
 
-/*** custom scroll bar **/
-::-webkit-scrollbar {
-  width: 10px;
-}
-::-webkit-scrollbar-track {
-  border-left: 1px solid rgba(0, 0, 0, 0.2);
-}
-::-webkit-scrollbar-thumb {
-  background: #f0f0f0;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #ddd;
-}
-
 @media all and (max-width: 513px) {
   .case-details {
     justify-content: flex-start;

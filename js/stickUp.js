@@ -32,7 +32,6 @@ jQuery(function($) {
           }
         }
         if (objn == 0) {
-          /*console.log('error:needs arguments');*/
         }
         itemClass = options.itemClass;
         itemHover = options.itemHover;
