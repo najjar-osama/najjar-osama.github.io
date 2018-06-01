@@ -5,12 +5,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-html {
-  overflow: hidden;
-}
-
 section {
   height: 100vh;
+  overflow: auto;
 }
 
 body {
@@ -521,6 +518,29 @@ section {
   margin-top: 2.4em;
 }
 
+/*** my rules ***/
+
+.brand-name {
+  font-size: 19px;
+  font-weight: 300;
+  color: #5a54af;
+  padding-left: 30px;
+}
+
+/*** custom scroll bar **/
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb {
+  background: #f0f0f0;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ddd;
+}
+
 @media all and (max-width: 513px) {
   .case-details {
     justify-content: flex-start;
@@ -531,6 +551,9 @@ section {
   }
   .case-details-item {
     padding-right: 25px !important;
+  }
+  .brand-name {
+    font-size: 16px;
   }
 }
 
@@ -604,11 +627,6 @@ section {
   color: #574cdd !important;
   transition: 0.2s ease-in-out;
   border-bottom: 3px solid #574cdd;
-}
-
-.nav-brand {
-  padding: 0px 30px;
-  cursor: none;
 }
 
 .avatar {
