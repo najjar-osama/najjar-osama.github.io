@@ -189,7 +189,7 @@ section {
 
 .hero-right p {
   /* color: #929292; */
-  font-size: 16px;
+  /*font-size: 16px;*/
   color: #777777;
   letter-spacing: 0;
   /* line-height: 25px; */
@@ -523,20 +523,21 @@ section {
 }
 
 .hot-text {
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 18px;
 }
 .normal-text {
 }
 
-/*.section-full-page {
-  height: 100vh;
+.section-full-page {
+  min-height: 100vh;
 }
 .section-full-page__first-section {
   padding-top: 120px;
 }
 .section-full-page__last-page {
-  height: calc(100vh - 140px);
-}*/
+  min-height: calc(100vh - 140px);
+}
 
 @media all and (max-width: 513px) {
   .case-details {
