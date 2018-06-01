@@ -538,6 +538,30 @@ section {
 .section-full-page__last-page {
   min-height: calc(100vh - 140px);
 }
+.tech-stack {
+}
+.tech-icons-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  /*height: 120px;*/
+}
+.tech-icon {
+  margin: 30px;
+}
+.tech-icon__icon-image {
+  height: 100px;
+  transition: height 400ms ease-in-out;
+  width: auto;
+}
+.tech-icon__icon-image:hover {
+  height: 120px;
+}
 
 @media all and (max-width: 513px) {
   .case-details {
