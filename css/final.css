@@ -527,6 +527,22 @@ section {
   padding-left: 30px;
 }
 
+.hot-text {
+  font-weight: bold;
+}
+.normal-text {
+}
+
+.section-full-page {
+  height: 100vh;
+}
+.section-full-page__first-section {
+  padding-top: 120px;
+}
+.section-full-page__last-page {
+  height: calc(100vh - 140px);
+}
+
 @media all and (max-width: 513px) {
   .case-details {
     justify-content: flex-start;
