@@ -627,6 +627,11 @@ section {
     margin-bottom: -2px;
   }
 }
+@media all and (max-width: 360px) {
+  .brand-name {
+    font-size: 14px;
+  }
+}
 
 .case-details-item {
   padding-right: 20px;
