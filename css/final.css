@@ -627,7 +627,7 @@ section {
     margin-bottom: -2px;
   }
 }
-@media all and (max-width: 360px) {
+@media all and (max-width: 375px) {
   .brand-name {
     font-size: 14px;
   }
