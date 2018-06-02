@@ -563,11 +563,12 @@ section {
 }
 .tech-icon__icon-image {
   height: 100px;
-  transition: height 400ms ease-in-out;
+  transition: 200ms ease-in;
   width: auto;
 }
 .tech-icon__icon-image:hover {
-  height: 120px;
+  -webkit-transform: translateY(-15px);
+  transform: translateY(-15px);
 }
 
 .tech-item-message {
