@@ -202,7 +202,6 @@ section {
 
 .hero-right p a {
   color: #574cdd;
-  text-decoration: underline;
 }
 
 .icons {
@@ -561,6 +560,34 @@ section {
 }
 .tech-icon__icon-image:hover {
   height: 120px;
+}
+
+.contact-section {
+  align-items: center;
+  display: flex;
+  height: calc(100vh - 140px); /*the entire screen minus footer height*/
+  justify-content: center;
+}
+
+.email-contact-link {
+  font-size: 50px;
+  color: #574cdd;
+  /*transition: font-size 400ms ease-in-out;*/
+}
+.big-email-icon {
+  height: 50px;
+  width: 50px;
+  margin-bottom: -7px;
+  /*transition: width 400ms, height 400ms, margin-bottom 400ms ease-in-out;*/
+}
+
+.get-in-touch-pargraph {
+  text-align: center;
+}
+.get-in-touch-link {
+  display: block;
+  font-size: 24px;
+  margin: 75px 0;
 }
 
 @media all and (max-width: 513px) {
