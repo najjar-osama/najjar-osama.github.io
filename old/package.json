@@ -1,0 +1,22 @@
+{
+  "name": "najjar-osama.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node node_modules/live-server/live-server ../najjar-osama.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/najjar-osama/najjar-osama.github.io.git"
+  },
+  "author": "Osama Najjar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/najjar-osama/najjar-osama.github.io/issues"
+  },
+  "homepage": "https://github.com/najjar-osama/najjar-osama.github.io#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
