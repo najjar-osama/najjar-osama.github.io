@@ -1,0 +1,16 @@
+.full-view-port{
+    min-height: 100vh;
+    background-color: rgb(240, 255, 241);
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-content-spacing--center{
+    justify-content: center;
+}
+.flex-content-align--center{
+    align-items: center;
+}
+

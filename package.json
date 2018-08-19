@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
+    "build-css": "node-sass-chokidar src/ -o dist/",
+    "dev-server": "cd dist && live-server",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "build:prod": "webpack --config webpack.config.js",
-    "dev": "webpack-dev-server "
+    "dev": "webpack-dev-server --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -26,11 +29,20 @@
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
+    "live-server": "^1.2.0",
     "node-sass": "^4.9.3",
+    "node-sass-chokidar": "^1.3.3",
+    "npm-run-all": "^4.1.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.22.1",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "flickity": "^2.1.2",
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.0",
+    "normalize.scss": "^0.1.0"
   }
 }
