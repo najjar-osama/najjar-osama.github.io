@@ -1,13 +1,69 @@
-.hero{
-    background: #0E2A47;
-    //background-size: 500px;
+.hero {
 }
 
+.hero-wrapper {
+  background: url("./images/intro_bg.png") no-repeat top right;
+  animation: hero-bg-anim 30s linear 2s infinite alternate;
+  -webkit-animation: hero-bg-anim 30s linear 2s infinite alternate;
+  -moz-animation: hero-bg-anim 30s linear 2s infinite alternate;
+  -o-animation: hero-bg-anim 30s linear 2s infinite alternate;
 
-.intro-section{
-    height: 100vh;
-    .name{
-        color: aliceblue;
-        font-size: 46px;
+}
+
+.hero-title {
+  animation: test 3s ease-in-out;
+  -webkit-animation: test 3s ease-in-out;
+  text-decoration: none;
+  h1 {
+    color: #fff;
+    font-size: 60px;
+    margin: 0;
+  }
+}
+
+.intro-section {
+  height: 100vh;
+  .name {
+    color: aliceblue;
+    font-size: 46px;
+  }
+}
+
+.loaded .hero-title {
+  animation: test 3s ease-in-out;
+}
+
+@keyframes hero-bg-anim{
+    from{
+        background-position: top right;
+    }
+    to{
+        background-position: bottom left;
     }
 }
+@-webkit-keyframes hero-bg-anim{
+    from{
+        background-position: top right;
+    }
+    to{
+        background-position: bottom left;
+    }
+}
+@-moz-keyframes hero-bg-anim{
+    from{
+        background-position: top right;
+    }
+    to{
+        background-position: bottom left;
+    }
+}
+@-o-keyframes hero-bg-anim{
+    from{
+        background-position: top right;
+    }
+    to{
+        background-position: bottom left;
+    }
+}
+
+
