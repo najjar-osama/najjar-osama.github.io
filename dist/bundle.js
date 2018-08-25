@@ -339,6 +339,17 @@ eval("module.exports = __webpack_require__.p + \"images/intro_bg.png\";\n\n//# s
 
 /***/ }),
 
+/***/ "./src/images/me.jpg":
+/*!***************************!*\
+  !*** ./src/images/me.jpg ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/me.jpg\";\n\n//# sourceURL=webpack:///./src/images/me.jpg?");
+
+/***/ }),
+
 /***/ "./src/images/science_pattern.png":
 /*!****************************************!*\
   !*** ./src/images/science_pattern.png ***!
@@ -358,7 +369,7 @@ eval("module.exports = __webpack_require__.p + \"images/science_pattern.png\";\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n__webpack_require__(/*! ./images/science_pattern.png */ \"./src/images/science_pattern.png\");\n\n__webpack_require__(/*! ./images/arabic_pattern.png */ \"./src/images/arabic_pattern.png\");\n\n__webpack_require__(/*! ./images/intro_bg.png */ \"./src/images/intro_bg.png\");\n\n__webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n\n__webpack_require__(/*! ../node_modules/normalize.scss/normalize.scss */ \"./node_modules/normalize.scss/normalize.scss\");\n\nvar _jquery = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\nvar _jquery2 = _interopRequireDefault(_jquery);\n\nvar _flickity = __webpack_require__(/*! flickity */ \"./node_modules/flickity/js/index.js\");\n\nvar _flickity2 = _interopRequireDefault(_flickity);\n\n__webpack_require__(/*! ../node_modules/flickity/css/flickity.css */ \"./node_modules/flickity/css/flickity.css\");\n\nvar _load = __webpack_require__(/*! ./js/load */ \"./src/js/load.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _load.load)();\n(0, _jquery2.default)(function () {});\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\n__webpack_require__(/*! ./images/science_pattern.png */ \"./src/images/science_pattern.png\");\n\n__webpack_require__(/*! ./images/arabic_pattern.png */ \"./src/images/arabic_pattern.png\");\n\n__webpack_require__(/*! ./images/intro_bg.png */ \"./src/images/intro_bg.png\");\n\n__webpack_require__(/*! ./images/me.jpg */ \"./src/images/me.jpg\");\n\n__webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n\n__webpack_require__(/*! ../node_modules/normalize.scss/normalize.scss */ \"./node_modules/normalize.scss/normalize.scss\");\n\nvar _jquery = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\nvar _jquery2 = _interopRequireDefault(_jquery);\n\nvar _flickity = __webpack_require__(/*! flickity */ \"./node_modules/flickity/js/index.js\");\n\nvar _flickity2 = _interopRequireDefault(_flickity);\n\n__webpack_require__(/*! ../node_modules/flickity/css/flickity.css */ \"./node_modules/flickity/css/flickity.css\");\n\nvar _load = __webpack_require__(/*! ./js/load */ \"./src/js/load.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _load.load)();\n(0, _jquery2.default)(function () {});\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
