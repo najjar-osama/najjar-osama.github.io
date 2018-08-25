@@ -1,26 +1,51 @@
 .hero {
+  //padding-top: 100px;
 }
 
 .hero-wrapper {
+  animation: hero-bg-anim 42s linear 0s infinite alternate;
+  -webkit-animation: hero-bg-anim 42s linear 0s infinite alternate;
+  -moz-animation: hero-bg-anim 42s linear 0s infinite alternate;
+  -o-animation: hero-bg-anim 42s linear 0s infinite alternate;
   background: url("./images/intro_bg.png") no-repeat top right;
-  animation: hero-bg-anim 40s linear 2s infinite alternate;
-  -webkit-animation: hero-bg-anim 40s linear 2s infinite alternate;
-  -moz-animation: hero-bg-anim 40s linear 2s infinite alternate;
-  -o-animation: hero-bg-anim 40s linear 2s infinite alternate;
 }
 
-.hero-image{
-    
+.loaded .hero {
+  animation: hero-anim 1.5s ease-in-out;
+  -webkit-animation: hero-anim 1.5s ease-in-out;
+  -moz-animation: hero-anim 1.5s ease-in-out;
+  -o-animation: hero-anim 1.5s ease-in-out;
+}
+
+
+
+.hero-image {
+  text-align: center;
+  img {
+    border: 10px solid #210042;
+    border-radius: 50%;
+    box-shadow: 3px 6px 20px 0px rgba(0, 0, 0, 0.5);
+    height: 200px;
+    margin-bottom: 15px;
+    transition: height 0.2s ease-in-out;
+    width: auto;
+  }
+  @media (min-width: 420px) {
+    img {
+      height: 250px;
+    }
+  }
+  @media (min-width: 720px) {
+    img {
+      height: 300px;
+    }
+  }
 }
 
 .hero-title {
   text-decoration: none;
   text-align: center;
   h1 {
-    animation: hero-title-anim 1s ease-in;
-    -webkit-animation: hero-title-anim 1s ease-in;
-    -moz-animation: hero-title-anim 1s ease-in;
-    -o-animation: hero-title-anim 1s ease-in;
     color: #fff;
     font-size: 32px;
     line-height: 1;
@@ -50,15 +75,15 @@
     line-height: 1;
     margin: 5px;
   }
-  .line{
-      display: block;
+  .line {
+    display: block;
   }
   @media (min-width: 420px) {
     & {
       font-size: 16px;
     }
     .qoute {
-        font-size: 24px;
+      font-size: 24px;
     }
   }
   @media (min-width: 512px) {
@@ -66,7 +91,7 @@
       font-size: 20px;
     }
     .qoute {
-        font-size: 26px;
+      font-size: 26px;
     }
   }
   @media (min-width: 720px) {
@@ -74,7 +99,7 @@
       font-size: 26px;
     }
     .qoute {
-        font-size: 28px;
+      font-size: 28px;
     }
   }
 }
@@ -87,51 +112,44 @@
   }
 }
 
-.loaded .hero-title {
-  /* animation: hero-title-anim 2s ease-in;
-    -webkit-animation: hero-title-anim 2s ease-in;
-    -moz-animation: hero-title-anim 2s ease-in;
-    -o-animation: hero-title-anim 2s ease-in; */
-}
-
-@keyframes hero-title-anim {
+@keyframes hero-anim {
   from {
-    color: rgba(255, 255, 255, 0);
+    opacity: 0;
     transform: translateY(40px);
   }
   to {
-    color: rgba(255, 255, 255, 1);
     transform: translateY(0px);
+    opacity: 1;
   }
 }
-@-webkit-keyframes hero-title-anim {
+@-webkit-keyframes hero-anim {
   from {
-    color: rgba(255, 255, 255, 0);
+    opacity: 0;
     transform: translateY(40px);
   }
   to {
-    color: rgba(255, 255, 255, 1);
     transform: translateY(0px);
+    opacity: 1;
   }
 }
-@-moz-keyframes hero-title-anim {
+@-moz-keyframes hero-anim {
   from {
-    color: rgba(255, 255, 255, 0);
+    opacity: 0;
     transform: translateY(40px);
   }
   to {
-    color: rgba(255, 255, 255, 1);
     transform: translateY(0px);
+    opacity: 1;
   }
 }
-@-o-keyframes hero-title-anim {
+@-o-keyframes hero-anim {
   from {
-    color: rgba(255, 255, 255, 0);
-    transform: translateY(0px);
+    opacity: 0;
+    transform: translateY(40px);
   }
   to {
-    color: rgba(255, 255, 255, 1);
-    transform: translateY(40px);
+    transform: translateY(0px);
+    opacity: 1;
   }
 }
 
