@@ -21,16 +21,18 @@ body {
 
 .hero-wrapper {
   background: url(images/intro_bg.png) no-repeat top right;
-  animation: hero-bg-anim 30s linear 2s infinite alternate;
-  -webkit-animation: hero-bg-anim 30s linear 2s infinite alternate;
-  -moz-animation: hero-bg-anim 30s linear 2s infinite alternate;
-  -o-animation: hero-bg-anim 30s linear 2s infinite alternate; }
+  animation: hero-bg-anim 40s linear 2s infinite alternate;
+  -webkit-animation: hero-bg-anim 40s linear 2s infinite alternate;
+  -moz-animation: hero-bg-anim 40s linear 2s infinite alternate;
+  -o-animation: hero-bg-anim 40s linear 2s infinite alternate; }
 
 .hero-title {
-  animation: test 3s ease-in-out;
-  -webkit-animation: test 3s ease-in-out;
   text-decoration: none; }
   .hero-title h1 {
+    animation: hero-title-anim 1s ease-in;
+    -webkit-animation: hero-title-anim 1s ease-in;
+    -moz-animation: hero-title-anim 1s ease-in;
+    -o-animation: hero-title-anim 1s ease-in;
     color: #fff;
     font-size: 60px;
     margin: 0; }
@@ -42,7 +44,42 @@ body {
     font-size: 46px; }
 
 .loaded .hero-title {
-  animation: test 3s ease-in-out; }
+  /* animation: hero-title-anim 2s ease-in;
+    -webkit-animation: hero-title-anim 2s ease-in;
+    -moz-animation: hero-title-anim 2s ease-in;
+    -o-animation: hero-title-anim 2s ease-in; */ }
+
+@keyframes hero-title-anim {
+  from {
+    color: rgba(255, 255, 255, 0);
+    transform: translateY(40px); }
+  to {
+    color: white;
+    transform: translateY(0px); } }
+
+@-webkit-keyframes hero-title-anim {
+  from {
+    color: rgba(255, 255, 255, 0);
+    transform: translateY(40px); }
+  to {
+    color: white;
+    transform: translateY(0px); } }
+
+@-moz-keyframes hero-title-anim {
+  from {
+    color: rgba(255, 255, 255, 0);
+    transform: translateY(40px); }
+  to {
+    color: white;
+    transform: translateY(0px); } }
+
+@-o-keyframes hero-title-anim {
+  from {
+    color: rgba(255, 255, 255, 0);
+    transform: translateY(0px); }
+  to {
+    color: white;
+    transform: translateY(40px); } }
 
 @keyframes hero-bg-anim {
   from {
