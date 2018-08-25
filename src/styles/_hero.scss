@@ -1,5 +1,7 @@
 .hero {
   //padding-top: 100px;
+  display: none;
+
 }
 
 .hero-wrapper {
@@ -11,10 +13,13 @@
 }
 
 .loaded .hero {
+
   animation: hero-anim 1.5s ease-in-out;
   -webkit-animation: hero-anim 1.5s ease-in-out;
   -moz-animation: hero-anim 1.5s ease-in-out;
   -o-animation: hero-anim 1.5s ease-in-out;
+  display: block;
+
 }
 
 

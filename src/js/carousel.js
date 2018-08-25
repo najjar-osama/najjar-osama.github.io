@@ -1,10 +1,9 @@
 import Flickity from "flickity";
 
 const initCarousel = () => {
-  const carouselNode = document.getElementById("main-carousel");
-  const carousel = new Flickity(carouselNode, {
-    // options
-    cellAlign: "left",
+  const projectsCarouselWrapper = document.getElementById("projectsCarousel");
+  const carousel = new Flickity(projectsCarouselWrapper, {
+    cellAlign: "center",
     contain: true
   });
 };

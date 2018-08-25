@@ -339,6 +339,17 @@ eval("module.exports = __webpack_require__.p + \"images/favicon.png\";\n\n//# so
 
 /***/ }),
 
+/***/ "./src/images/github.png":
+/*!*******************************!*\
+  !*** ./src/images/github.png ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/github.png\";\n\n//# sourceURL=webpack:///./src/images/github.png?");
+
+/***/ }),
+
 /***/ "./src/images/intro_bg.png":
 /*!*********************************!*\
   !*** ./src/images/intro_bg.png ***!
@@ -350,6 +361,17 @@ eval("module.exports = __webpack_require__.p + \"images/intro_bg.png\";\n\n//# s
 
 /***/ }),
 
+/***/ "./src/images/link.png":
+/*!*****************************!*\
+  !*** ./src/images/link.png ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/link.png\";\n\n//# sourceURL=webpack:///./src/images/link.png?");
+
+/***/ }),
+
 /***/ "./src/images/me_1.jpg":
 /*!*****************************!*\
   !*** ./src/images/me_1.jpg ***!
@@ -358,6 +380,17 @@ eval("module.exports = __webpack_require__.p + \"images/intro_bg.png\";\n\n//# s
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("module.exports = __webpack_require__.p + \"images/me_1.jpg\";\n\n//# sourceURL=webpack:///./src/images/me_1.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/mx_pwa.png":
+/*!*******************************!*\
+  !*** ./src/images/mx_pwa.png ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/mx_pwa.png\";\n\n//# sourceURL=webpack:///./src/images/mx_pwa.png?");
 
 /***/ }),
 
@@ -391,7 +424,7 @@ eval("module.exports = __webpack_require__.p + \"images/science_pattern.png\";\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n__webpack_require__(/*! ./images/science_pattern.png */ \"./src/images/science_pattern.png\");\n\n__webpack_require__(/*! ./images/arabic_pattern.png */ \"./src/images/arabic_pattern.png\");\n\n__webpack_require__(/*! ./images/intro_bg.png */ \"./src/images/intro_bg.png\");\n\n__webpack_require__(/*! ./images/me_1.jpg */ \"./src/images/me_1.jpg\");\n\n__webpack_require__(/*! ./images/favicon.png */ \"./src/images/favicon.png\");\n\n__webpack_require__(/*! ./images/pattern_transparent_4.png */ \"./src/images/pattern_transparent_4.png\");\n\n__webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n\n__webpack_require__(/*! ../node_modules/normalize.scss/normalize.scss */ \"./node_modules/normalize.scss/normalize.scss\");\n\nvar _jquery = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\nvar _jquery2 = _interopRequireDefault(_jquery);\n\n__webpack_require__(/*! ./js/scrollit.js */ \"./src/js/scrollit.js\");\n\nvar _scroll = __webpack_require__(/*! ./js/scroll */ \"./src/js/scroll.js\");\n\nvar _scroll2 = _interopRequireDefault(_scroll);\n\n__webpack_require__(/*! ../node_modules/flickity/css/flickity.css */ \"./node_modules/flickity/css/flickity.css\");\n\nvar _load = __webpack_require__(/*! ./js/load */ \"./src/js/load.js\");\n\nvar _carousel = __webpack_require__(/*! ./js/carousel */ \"./src/js/carousel.js\");\n\nvar _carousel2 = _interopRequireDefault(_carousel);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//import setScrollHandler from \"./js/scroll\";\n\n\n(0, _load.load)();\n(0, _scroll2.default)();\n(0, _carousel2.default)();\n(0, _jquery2.default)(function () {\n    _jquery2.default.scrollIt({\n        upKey: 38, // key code to navigate to the next section\n        downKey: 40, // key code to navigate to the previous section\n        easing: 'linear', // the easing function for animation\n        scrollTime: 600, // how long (in ms) the animation takes\n        activeClass: 'active', // class given to the active nav element\n        onPageChange: null, // function(pageIndex) that is called when page is changed\n        topOffset: 0 // offste (in px) for fixed top navigation\n    });\n});\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\n__webpack_require__(/*! ./images/science_pattern.png */ \"./src/images/science_pattern.png\");\n\n__webpack_require__(/*! ./images/arabic_pattern.png */ \"./src/images/arabic_pattern.png\");\n\n__webpack_require__(/*! ./images/intro_bg.png */ \"./src/images/intro_bg.png\");\n\n__webpack_require__(/*! ./images/me_1.jpg */ \"./src/images/me_1.jpg\");\n\n__webpack_require__(/*! ./images/favicon.png */ \"./src/images/favicon.png\");\n\n__webpack_require__(/*! ./images/pattern_transparent_4.png */ \"./src/images/pattern_transparent_4.png\");\n\n__webpack_require__(/*! ./images/github.png */ \"./src/images/github.png\");\n\n__webpack_require__(/*! ./images/link.png */ \"./src/images/link.png\");\n\n__webpack_require__(/*! ./images/mx_pwa.png */ \"./src/images/mx_pwa.png\");\n\n__webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n\n__webpack_require__(/*! ../node_modules/normalize.scss/normalize.scss */ \"./node_modules/normalize.scss/normalize.scss\");\n\nvar _jquery = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\nvar _jquery2 = _interopRequireDefault(_jquery);\n\n__webpack_require__(/*! ./js/scrollit.js */ \"./src/js/scrollit.js\");\n\nvar _scroll = __webpack_require__(/*! ./js/scroll */ \"./src/js/scroll.js\");\n\nvar _scroll2 = _interopRequireDefault(_scroll);\n\n__webpack_require__(/*! ../node_modules/flickity/css/flickity.css */ \"./node_modules/flickity/css/flickity.css\");\n\nvar _load = __webpack_require__(/*! ./js/load */ \"./src/js/load.js\");\n\nvar _carousel = __webpack_require__(/*! ./js/carousel */ \"./src/js/carousel.js\");\n\nvar _carousel2 = _interopRequireDefault(_carousel);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//import setScrollHandler from \"./js/scroll\";\n\n\n(0, _load.load)();\n(0, _scroll2.default)();\n(0, _carousel2.default)();\n(0, _jquery2.default)(function () {\n    _jquery2.default.scrollIt({\n        upKey: 38, // key code to navigate to the next section\n        downKey: 40, // key code to navigate to the previous section\n        easing: 'linear', // the easing function for animation\n        scrollTime: 600, // how long (in ms) the animation takes\n        activeClass: 'active', // class given to the active nav element\n        onPageChange: null, // function(pageIndex) that is called when page is changed\n        topOffset: 0 // offste (in px) for fixed top navigation\n    });\n});\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -403,7 +436,7 @@ eval("\n\n__webpack_require__(/*! ./images/science_pattern.png */ \"./src/images
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _flickity = __webpack_require__(/*! flickity */ \"./node_modules/flickity/js/index.js\");\n\nvar _flickity2 = _interopRequireDefault(_flickity);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar initCarousel = function initCarousel() {\n  var carouselNode = document.getElementById(\"main-carousel\");\n  var carousel = new _flickity2.default(carouselNode, {\n    // options\n    cellAlign: \"left\",\n    contain: true\n  });\n};\n\nexports.default = initCarousel;\n\n//# sourceURL=webpack:///./src/js/carousel.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _flickity = __webpack_require__(/*! flickity */ \"./node_modules/flickity/js/index.js\");\n\nvar _flickity2 = _interopRequireDefault(_flickity);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar initCarousel = function initCarousel() {\n  var projectsCarouselWrapper = document.getElementById(\"projectsCarousel\");\n  var carousel = new _flickity2.default(projectsCarouselWrapper, {\n    cellAlign: \"center\",\n    contain: true\n  });\n};\n\nexports.default = initCarousel;\n\n//# sourceURL=webpack:///./src/js/carousel.js?");
 
 /***/ }),
 
