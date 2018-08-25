@@ -30,13 +30,7 @@ body {
   margin: 0;
   position: fixed;
   transition: background-color .2s ease-in-out;
-  width: 100%;
-  /*@media (min-width: $xs) {
-    height: 50px;
-  }
-  @media (min-width: $sm) {
-    height: 60px;
-  }*/ }
+  width: 100%; }
 
 .with-nav-content {
   padding-top: 45px; }
