@@ -34,8 +34,15 @@ body {
     -moz-animation: hero-title-anim 1s ease-in;
     -o-animation: hero-title-anim 1s ease-in;
     color: #fff;
-    font-size: 60px;
-    margin: 0; }
+    font-size: 30px;
+    margin: 0;
+    transition: font-size 0.2s ease-in-out; }
+  @media (min-width: 420px) {
+    .hero-title h1 {
+      font-size: 40px; } }
+  @media (min-width: 720px) {
+    .hero-title h1 {
+      font-size: 60px; } }
 
 .intro-section {
   height: 100vh; }

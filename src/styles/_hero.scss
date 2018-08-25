@@ -17,10 +17,24 @@
     -moz-animation: hero-title-anim 1s ease-in;
     -o-animation: hero-title-anim 1s ease-in;
     color: #fff;
-    font-size: 60px;
+    font-size: 30px;
     margin: 0;
-    //transform: translateY(-10px);
+    transition: font-size 0.2s ease-in-out;
   }
+  @media (min-width: 420px) {
+    h1 {
+      font-size: 40px;
+    }
+  }
+  @media (min-width: 720px) {
+    h1 {
+      font-size: 60px;
+    }
+  }
+}
+
+.hero-subtite{
+    
 }
 
 .intro-section {
