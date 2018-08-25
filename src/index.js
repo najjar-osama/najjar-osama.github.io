@@ -8,9 +8,11 @@ import $ from "jquery";
 import flickity from "flickity";
 import "../node_modules/flickity/css/flickity.css";
 import { load } from "./js/load";
+import setScrollHandler from "./js/scroll";
 
 
 load();
+setScrollHandler();
 $(function(){
    
 });
