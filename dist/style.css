@@ -25,32 +25,30 @@ body {
   align-items: center; }
 
 .nav {
-  align-content: center;
   background-color: rgba(0, 0, 0, 0);
-  display: flex;
-  height: 45px;
-  padding: 10px 0px;
+  padding: 0;
+  margin: 0;
   position: fixed;
   transition: background-color .2s ease-in-out;
-  width: 100%; }
-  @media (min-width: 420px) {
-    .nav {
-      height: 50px; } }
-  @media (min-width: 720px) {
-    .nav {
-      height: 60px; } }
+  width: 100%;
+  /*@media (min-width: $xs) {
+    height: 50px;
+  }
+  @media (min-width: $sm) {
+    height: 60px;
+  }*/ }
 
 .with-nav-content {
   padding-top: 45px; }
-  @media (min-width: 420px) {
+  @media (min-width: 425px) {
     .with-nav-content {
       padding-top: 50px; } }
-  @media (min-width: 720px) {
+  @media (min-width: 786px) {
     .with-nav-content {
       padding-top: 60px; } }
 
 .nav--dark {
-  background-color: rgba(35, 0, 70, 0.75); }
+  background-color: rgba(35, 0, 70, 0.8); }
 
 .nav-wrapper {
   align-items: center;
@@ -68,26 +66,38 @@ body {
   background-position: 100px 300px; }
 
 .nav-list-item {
-  display: inline;
+  align-items: center;
+  display: flex;
+  height: 45px;
   margin: 0px 10px 0px 0px;
-  padding: 0; }
+  padding: 0 15px;
+  transition: background-color .75s ease-in-out; }
+  @media (min-width: 425px) {
+    .nav-list-item {
+      height: 50px; } }
+  @media (min-width: 786px) {
+    .nav-list-item {
+      height: 60px; } }
   .nav-list-item a {
     color: #fff;
     font-size: 16px;
     text-decoration: none;
-    transition: font-size 0.2s ease-in-out; }
-  @media (min-width: 420px) {
+    transition: font-size,background-color 0.2s ease-in-out; }
+  @media (min-width: 425px) {
     .nav-list-item a {
       font-size: 18px; } }
-  @media (min-width: 720px) {
+  @media (min-width: 786px) {
     .nav-list-item a {
       font-size: 20px; } }
 
+.active {
+  background-color: #16002d; }
+
 .loaded .nav {
-  animation: nav-anim 1.5s ease 0s;
-  -webkit-animation: nav-anim 1.5s ease 0s;
-  -moz-animation: nav-anim 1.5s ease 0s;
-  -o-animation: nav-anim 1.5s ease 0s; }
+  /*animation: nav-anim 1.5s ease 0s;
+  -webkit-animation:  nav-anim 1.5s ease 0s;
+  -moz-animation:  nav-anim 1.5s ease 0s;
+  -o-animation:  nav-anim 1.5s ease 0s;*/ }
 
 @keyframes nav-anim {
   from {
@@ -184,7 +194,8 @@ body {
     display: block; }
   .hero-subtitle:after {
     content: "...";
-    display: block; }
+    display: block;
+    font-size: 40px; }
   @media (min-width: 425px) {
     .hero-subtitle {
       font-size: 16px; }
