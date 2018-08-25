@@ -25,11 +25,12 @@ body {
 
 .nav {
   align-content: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   height: 45px;
   padding: 10px 0px;
   position: fixed;
+  transition: background-color .2s ease-in-out;
   width: 100%; }
   @media (min-width: 420px) {
     .nav {
@@ -47,6 +48,9 @@ body {
     .with-nav-content {
       padding-top: 60px; } }
 
+.nav--dark {
+  background-color: rgba(0, 0, 0, 0.8); }
+
 .nav-wrapper {
   align-items: center;
   display: flex; }
@@ -58,6 +62,10 @@ body {
   margin: 0;
   padding: 0; }
 
+.section {
+  background: url(images/pattern_transparent_4.png);
+  background-position: 100px 300px; }
+
 .nav-list-item {
   display: inline;
   margin: 0px 10px 0px 0px;
@@ -66,7 +74,7 @@ body {
     color: #fff;
     font-size: 16px;
     text-decoration: none;
-    transition: font-size .2s ease-in-out; }
+    transition: font-size 0.2s ease-in-out; }
   @media (min-width: 420px) {
     .nav-list-item a {
       font-size: 18px; } }
@@ -75,44 +83,43 @@ body {
       font-size: 20px; } }
 
 .loaded .nav {
-  animation: nav-anim 1.5s ease 0s; }
+  animation: nav-anim 1.5s ease 0s;
+  -webkit-animation: nav-anim 1.5s ease 0s;
+  -moz-animation: nav-anim 1.5s ease 0s;
+  -o-animation: nav-anim 1.5s ease 0s; }
 
-/*     animation: 
-  -webkit-animation: 
-  -moz-animation: 
-  -o-animation:  */
 @keyframes nav-anim {
   from {
     opacity: 0;
     background-color: rgba(0, 0, 0, 0); }
   to {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     opacity: 1; } }
 
-/* @-webkit-keyframes {
-    from{
-        
-    }
-    to{
-        
-    }
-}
-@-moz-keyframes {
-    from{
-        
-    }
-    to{
-        
-    }
-}
-@-o-keyframes {
-    from{
-        
-    }
-    to{
-        
-    }
-}  */
+@-webkit-keyframes nav-anim {
+  from {
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0); }
+  to {
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 1; } }
+
+@-moz-keyframes nav-anim {
+  from {
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0); }
+  to {
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 1; } }
+
+@-o-keyframes nav-anim {
+  from {
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0); }
+  to {
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 1; } }
+
 .hero-wrapper {
   animation: hero-bg-anim 42s linear 0s infinite alternate;
   -webkit-animation: hero-bg-anim 42s linear 0s infinite alternate;

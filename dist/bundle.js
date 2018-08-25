@@ -350,6 +350,17 @@ eval("module.exports = __webpack_require__.p + \"images/me_1.jpg\";\n\n//# sourc
 
 /***/ }),
 
+/***/ "./src/images/pattern_transparent_4.png":
+/*!**********************************************!*\
+  !*** ./src/images/pattern_transparent_4.png ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/pattern_transparent_4.png\";\n\n//# sourceURL=webpack:///./src/images/pattern_transparent_4.png?");
+
+/***/ }),
+
 /***/ "./src/images/science_pattern.png":
 /*!****************************************!*\
   !*** ./src/images/science_pattern.png ***!
@@ -369,7 +380,7 @@ eval("module.exports = __webpack_require__.p + \"images/science_pattern.png\";\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n__webpack_require__(/*! ./images/science_pattern.png */ \"./src/images/science_pattern.png\");\n\n__webpack_require__(/*! ./images/arabic_pattern.png */ \"./src/images/arabic_pattern.png\");\n\n__webpack_require__(/*! ./images/intro_bg.png */ \"./src/images/intro_bg.png\");\n\n__webpack_require__(/*! ./images/me_1.jpg */ \"./src/images/me_1.jpg\");\n\n__webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n\n__webpack_require__(/*! ../node_modules/normalize.scss/normalize.scss */ \"./node_modules/normalize.scss/normalize.scss\");\n\nvar _jquery = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\nvar _jquery2 = _interopRequireDefault(_jquery);\n\nvar _flickity = __webpack_require__(/*! flickity */ \"./node_modules/flickity/js/index.js\");\n\nvar _flickity2 = _interopRequireDefault(_flickity);\n\n__webpack_require__(/*! ../node_modules/flickity/css/flickity.css */ \"./node_modules/flickity/css/flickity.css\");\n\nvar _load = __webpack_require__(/*! ./js/load */ \"./src/js/load.js\");\n\nvar _scroll = __webpack_require__(/*! ./js/scroll */ \"./src/js/scroll.js\");\n\nvar _scroll2 = _interopRequireDefault(_scroll);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _load.load)();\n(0, _scroll2.default)();\n(0, _jquery2.default)(function () {});\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\n__webpack_require__(/*! ./images/science_pattern.png */ \"./src/images/science_pattern.png\");\n\n__webpack_require__(/*! ./images/arabic_pattern.png */ \"./src/images/arabic_pattern.png\");\n\n__webpack_require__(/*! ./images/intro_bg.png */ \"./src/images/intro_bg.png\");\n\n__webpack_require__(/*! ./images/me_1.jpg */ \"./src/images/me_1.jpg\");\n\n__webpack_require__(/*! ./images/pattern_transparent_4.png */ \"./src/images/pattern_transparent_4.png\");\n\n__webpack_require__(/*! ./styles.scss */ \"./src/styles.scss\");\n\n__webpack_require__(/*! ../node_modules/normalize.scss/normalize.scss */ \"./node_modules/normalize.scss/normalize.scss\");\n\nvar _jquery = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\nvar _jquery2 = _interopRequireDefault(_jquery);\n\nvar _flickity = __webpack_require__(/*! flickity */ \"./node_modules/flickity/js/index.js\");\n\nvar _flickity2 = _interopRequireDefault(_flickity);\n\n__webpack_require__(/*! ../node_modules/flickity/css/flickity.css */ \"./node_modules/flickity/css/flickity.css\");\n\nvar _load = __webpack_require__(/*! ./js/load */ \"./src/js/load.js\");\n\nvar _scroll = __webpack_require__(/*! ./js/scroll */ \"./src/js/scroll.js\");\n\nvar _scroll2 = _interopRequireDefault(_scroll);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _load.load)();\n(0, _scroll2.default)();\n(0, _jquery2.default)(function () {});\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -393,7 +404,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nvar setScrollHandler = function setScrollHandler() {\n    var scrollStep = document.body.clientHeight;\n    if (!window.lastScrollStep) {\n        window.lastScrollStep = window.scrollY;\n    }\n    window.addEventListener(\"scroll\", function (e) {\n        //e.preventDefault(); // does nothing becasue the event is not cancelable\n        if (window.scrollY > window.lastScrollStep) {\n\n            window.scrollTo({\n                left: 0,\n                top: scrollStep,\n                behavior: \"smooth\"\n            });\n        } else {\n            window.scrollTo({\n                left: 0,\n                top: window.lastScrollStep - scrollStep,\n                behavior: \"smooth\"\n            });\n        }\n        window.lastScrollStep = window.scrollY;\n    });\n};\n\nexports.default = setScrollHandler;\n\n//# sourceURL=webpack:///./src/js/scroll.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nvar setScrollHandler = function setScrollHandler() {\n    var scrollStep = document.body.clientHeight;\n    if (!window.lastScrollStep) {\n        window.lastScrollStep = window.scrollY;\n    }\n    window.addEventListener(\"scroll\", function (e) {\n        //e.preventDefault(); // does nothing becasue the event is not cancelable\n        var nav = document.getElementById(\"nav\");\n        if (window.scrollY > window.lastScrollStep) {\n\n            window.scrollTo({\n                left: 0,\n                top: scrollStep,\n                behavior: \"smooth\"\n            });\n            nav.classList.add(\"nav--dark\");\n        } else {\n            window.scrollTo({\n                left: 0,\n                top: window.lastScrollStep - scrollStep,\n                behavior: \"smooth\"\n            });\n            window.scrollY === 0 ? nav.classList.remove(\"nav--dark\") : nav;\n        }\n        window.lastScrollStep = window.scrollY;\n    });\n};\n\nexports.default = setScrollHandler;\n\n//# sourceURL=webpack:///./src/js/scroll.js?");
 
 /***/ }),
 
