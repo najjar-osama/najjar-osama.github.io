@@ -54,6 +54,10 @@ module.exports = {
       inject: false,
       template: "./src/index.html",
       filename: "index.html"
+    }),
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery'
     })
   ]
 };
