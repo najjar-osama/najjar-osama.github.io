@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,700);html {
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,700);/*** breakpoints ***/
+html {
   color: #333; }
 
 body {
@@ -143,10 +144,10 @@ body {
     margin-bottom: 15px;
     transition: height 0.2s ease-in-out;
     width: auto; }
-  @media (min-width: 420px) {
+  @media (min-width: 425px) {
     .hero-image img {
       height: 250px; } }
-  @media (min-width: 720px) {
+  @media (min-width: 786px) {
     .hero-image img {
       height: 300px; } }
 
@@ -159,10 +160,10 @@ body {
     line-height: 1;
     margin: 0;
     transition: font-size 0.2s ease-in-out; }
-  @media (min-width: 420px) {
+  @media (min-width: 425px) {
     .hero-title h1 {
       font-size: 40px; } }
-  @media (min-width: 720px) {
+  @media (min-width: 786px) {
     .hero-title h1 {
       font-size: 55px; } }
 
@@ -181,17 +182,20 @@ body {
     margin: 5px; }
   .hero-subtitle .line {
     display: block; }
-  @media (min-width: 420px) {
+  .hero-subtitle:after {
+    content: "...";
+    display: block; }
+  @media (min-width: 425px) {
     .hero-subtitle {
       font-size: 16px; }
     .hero-subtitle .qoute {
       font-size: 24px; } }
-  @media (min-width: 512px) {
+  @media (min-width: 606px) {
     .hero-subtitle {
       font-size: 20px; }
     .hero-subtitle .qoute {
       font-size: 26px; } }
-  @media (min-width: 720px) {
+  @media (min-width: 786px) {
     .hero-subtitle {
       font-size: 26px; }
     .hero-subtitle .qoute {
