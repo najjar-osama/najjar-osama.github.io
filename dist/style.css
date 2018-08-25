@@ -267,6 +267,14 @@ body {
     background-position: top right; }
   to {
     background-position: bottom left; } }
+
+.main-carousel {
+  height: 300px;
+  width: 300px; }
+
+.carousel-cell {
+  height: 100%;
+  width: 100%; }
 /*! normalize.scss v0.1.0 | MIT License | based on git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.

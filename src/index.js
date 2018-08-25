@@ -9,15 +9,16 @@ import "../node_modules/normalize.scss/normalize.scss";
 import $ from "jquery";
 import "./js/scrollit.js";
 import setScrollHandler from "./js/scroll";
-import flickity from "flickity";
 import "../node_modules/flickity/css/flickity.css";
 import { load } from "./js/load";
+import initCarousel from "./js/carousel";
 //import setScrollHandler from "./js/scroll";
 
 
 
 load();
 setScrollHandler();
+initCarousel();
 $(function(){
     $.scrollIt({
         upKey: 38,             // key code to navigate to the next section
