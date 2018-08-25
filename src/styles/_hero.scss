@@ -11,13 +11,15 @@
 
 .hero-title {
   text-decoration: none;
+  text-align: center;
   h1 {
     animation: hero-title-anim 1s ease-in;
     -webkit-animation: hero-title-anim 1s ease-in;
     -moz-animation: hero-title-anim 1s ease-in;
     -o-animation: hero-title-anim 1s ease-in;
     color: #fff;
-    font-size: 30px;
+    font-size: 32px;
+    line-height: 1;
     margin: 0;
     transition: font-size 0.2s ease-in-out;
   }
@@ -28,13 +30,49 @@
   }
   @media (min-width: 720px) {
     h1 {
-      font-size: 60px;
+      font-size: 55px;
     }
   }
 }
 
-.hero-subtite{
-    
+.hero-subtitle {
+  color: #fff;
+  margin: 20px 0px 0px 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: font-size 0.2s ease-in-out;
+  .qoute {
+    font-size: 20px;
+    line-height: 1;
+    margin: 5px;
+  }
+  .line{
+      display: block;
+  }
+  @media (min-width: 420px) {
+    & {
+      font-size: 16px;
+    }
+    .qoute {
+        font-size: 24px;
+    }
+  }
+  @media (min-width: 512px) {
+    & {
+      font-size: 20px;
+    }
+    .qoute {
+        font-size: 26px;
+    }
+  }
+  @media (min-width: 720px) {
+    & {
+      font-size: 26px;
+    }
+    .qoute {
+        font-size: 28px;
+    }
+  }
 }
 
 .intro-section {

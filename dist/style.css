@@ -27,14 +27,16 @@ body {
   -o-animation: hero-bg-anim 40s linear 2s infinite alternate; }
 
 .hero-title {
-  text-decoration: none; }
+  text-decoration: none;
+  text-align: center; }
   .hero-title h1 {
     animation: hero-title-anim 1s ease-in;
     -webkit-animation: hero-title-anim 1s ease-in;
     -moz-animation: hero-title-anim 1s ease-in;
     -o-animation: hero-title-anim 1s ease-in;
     color: #fff;
-    font-size: 30px;
+    font-size: 32px;
+    line-height: 1;
     margin: 0;
     transition: font-size 0.2s ease-in-out; }
   @media (min-width: 420px) {
@@ -42,7 +44,35 @@ body {
       font-size: 40px; } }
   @media (min-width: 720px) {
     .hero-title h1 {
-      font-size: 60px; } }
+      font-size: 55px; } }
+
+.hero-subtitle {
+  color: #fff;
+  margin: 20px 0px 0px 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: font-size 0.2s ease-in-out; }
+  .hero-subtitle .qoute {
+    font-size: 20px;
+    line-height: 1;
+    margin: 5px; }
+  .hero-subtitle .line {
+    display: block; }
+  @media (min-width: 420px) {
+    .hero-subtitle {
+      font-size: 16px; }
+    .hero-subtitle .qoute {
+      font-size: 24px; } }
+  @media (min-width: 512px) {
+    .hero-subtitle {
+      font-size: 20px; }
+    .hero-subtitle .qoute {
+      font-size: 26px; } }
+  @media (min-width: 720px) {
+    .hero-subtitle {
+      font-size: 26px; }
+    .hero-subtitle .qoute {
+      font-size: 28px; } }
 
 .intro-section {
   height: 100vh; }
