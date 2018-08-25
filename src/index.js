@@ -7,6 +7,7 @@ import "./styles.scss";
 import "../node_modules/normalize.scss/normalize.scss";
 import $ from "jquery";
 import "./js/scrollit.js";
+import setScrollHandler from "./js/scroll";
 import flickity from "flickity";
 import "../node_modules/flickity/css/flickity.css";
 import { load } from "./js/load";
@@ -15,7 +16,7 @@ import { load } from "./js/load";
 
 
 load();
-//setScrollHandler();
+setScrollHandler();
 $(function(){
     $.scrollIt({
         upKey: 38,             // key code to navigate to the next section

@@ -8,22 +8,12 @@ const setScrollHandler = () => {
     const nav = document.getElementById("nav");
     if (window.scrollY > window.lastScrollStep) {
       if (!Number.isInteger(window.scrollY / window.lastScrollStep)) {
-        window.scrollTo({
-          left: 0,
-          top: scrollStep,
-          behavior: "auto"
-        });
         window.lastScrollStep = window.lastScrollStep + scrollStep;
         nav.classList.add("nav--dark");
       }
     } else {
       if (!Number.isInteger(window.scrollY / window.lastScrollStep)) {
       }
-      window.scrollTo({
-        left: 0,
-        top: window.lastScrollStep - scrollStep,
-        behavior: "auto"
-      });
       window.lastScrollStep = window.lastScrollStep - scrollStep;
       window.scrollY === 0 ? nav.classList.remove("nav--dark") : nav;
     }
