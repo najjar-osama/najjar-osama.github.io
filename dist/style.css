@@ -5,7 +5,8 @@ body {
   font-family: "Ubuntu","monospace","Proxima Nova","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif; }
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: "Ubuntu","monospace","Proxima Nova","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif; }
 
 .full-page {
   min-height: 100vh; }
