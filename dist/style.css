@@ -129,10 +129,10 @@ body {
 
 .hero {
   display: none;
-  transition: padding .2s ease-in-out; }
+  transition: margin .2s ease-in-out; }
   @media screen and (max-height: 606px) {
     .hero {
-      padding-top: 65px; } }
+      margin-top: 65px; } }
 
 .hero-wrapper {
   animation: hero-bg-anim 42s linear 0s infinite alternate;
@@ -291,10 +291,10 @@ body {
 
 /* Projects Carousel */
 .projects-carousel {
-  transition: padding 0.2s ease-in-out; }
+  transition: margin 0.2s ease-in-out; }
   @media screen and (max-height: 606px) {
     .projects-carousel {
-      padding-top: 85px; } }
+      margin-top: 85px; } }
 
 .project-wrapper {
   height: auto; }

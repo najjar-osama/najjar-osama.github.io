@@ -12,9 +12,9 @@
 
 /* Projects Carousel */
 .projects-carousel {
-  transition: padding 0.2s ease-in-out;
+  transition: margin 0.2s ease-in-out;
   @media screen and (max-height: $ms) {
-    padding-top: 85px;
+    margin-top: 85px;
   }
 }
 

@@ -1,9 +1,9 @@
 .hero {
   
   display: none;
-  transition: padding .2s ease-in-out;
+  transition: margin .2s ease-in-out;
   @media screen and (max-height:$ms){
-    padding-top: 65px;
+    margin-top: 65px;
   }
 
 }
