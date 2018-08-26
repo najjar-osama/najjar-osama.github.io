@@ -9,6 +9,7 @@ import "./images/link.png";
 import "./images/mx_pwa.png";
 import "./images/mx_camera.png";
 import "./images/roboless.png";
+import "./images/mx_cke.png";
 import "./styles.scss";
 import "../node_modules/normalize.scss/normalize.scss";
 import $ from "jquery";
