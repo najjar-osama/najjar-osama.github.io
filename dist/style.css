@@ -10,7 +10,8 @@ body {
   font-family: "Ubuntu","monospace","Proxima Nova","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif; }
 
 .full-page {
-  min-height: 100vh; }
+  min-height: 100vh;
+  height: auto; }
 
 .container {
   margin: 0 5%; }
@@ -30,7 +31,8 @@ body {
   margin: 0;
   position: fixed;
   transition: background-color .2s ease-in-out;
-  width: 100%; }
+  width: 100%;
+  z-index: 99; }
 
 .with-nav-content {
   padding-top: 45px; }
@@ -126,6 +128,7 @@ body {
     opacity: 1; } }
 
 .hero {
+  padding-top: 100px;
   display: none; }
 
 .hero-wrapper {
@@ -291,6 +294,7 @@ body {
   margin: 0 auto; }
   .project-image img {
     height: auto;
+    max-height: 600px;
     width: 100%; }
 
 .project-description h1 {
