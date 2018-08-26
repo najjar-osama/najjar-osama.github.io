@@ -25,6 +25,9 @@ body {
 .flex-content-align--center {
   align-items: center; }
 
+.flex-direction--col {
+  flex-direction: column; }
+
 .nav {
   background-color: rgba(0, 0, 0, 0);
   padding: 0;
@@ -306,9 +309,13 @@ body {
     height: auto;
     max-height: 600px;
     width: 100%; }
-  .project-image .dbw {
+  .project-image .company-logo {
     width: auto;
-    height: auto; }
+    height: auto;
+    max-height: 200px;
+    background-color: rgba(35, 0, 70, 0.1);
+    padding: 15px 20px;
+    border-radius: 4px; }
 
 .project-description h1 {
   color: #230046;
