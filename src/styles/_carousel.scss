@@ -24,10 +24,15 @@
 
 .project-image {
   margin: 0 auto;
+  text-align: center;
   img {
     height: auto;
     max-height: 600px;
     width: 100%;
+  }
+  .dbw{
+    width: auto;
+    height: auto;
   }
 }
 
@@ -74,5 +79,7 @@
       content: "#";
       font-weight: 700;
     }
+    
   }
+
 }

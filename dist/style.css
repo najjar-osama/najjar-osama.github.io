@@ -300,11 +300,15 @@ body {
   height: auto; }
 
 .project-image {
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center; }
   .project-image img {
     height: auto;
     max-height: 600px;
     width: 100%; }
+  .project-image .dbw {
+    width: auto;
+    height: auto; }
 
 .project-description h1 {
   color: #230046;
