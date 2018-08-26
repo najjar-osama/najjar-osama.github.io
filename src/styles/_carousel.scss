@@ -1,74 +1,78 @@
-.carousel-wrapper{
-    height: auto;
-    width: 100%;
+.carousel-wrapper {
+  height: auto;
+  width: 100%;
 }
-.carousel-item{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    min-height: 300px;
+.carousel-item {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 300px;
 }
-
 
 /* Projects Carousel */
-.projects-carousel{
-
+.projects-carousel {
+  transition: padding 0.2s ease-in-out;
+  @media screen and (max-height: $ms) {
+    padding-top: 85px;
+  }
 }
 
-.project-wrapper{
+.project-wrapper {
+  height: auto;
+}
+
+.project-image {
+  margin: 0 auto;
+  img {
     height: auto;
+    max-height: 600px;
+    width: 100%;
+  }
 }
 
-.project-image{
-    margin: 0 auto;
-    img{
-        height: auto;
-        max-height: 600px;
-        width: 100%;  
-    }
+.project-description {
+  h1 {
+    color: $purble;
+    line-height: 1;
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 24px;
+  }
+  p {
+    color: $dark-gray;
+    margin: 10px 0px;
+    text-align: center;
+  }
 }
 
-.project-description{
-    h1{
-        color: $purble;
-        line-height: 1;
-        margin: 20px 0px;
-        text-align: center;
-        font-size: 24px;
-    }
-    p{
-        color: $dark-gray;
-        margin: 10px 0px;
-        text-align: center;
-    }
+.project-links {
+  display: flex;
+  justify-content: center;
+  img.icon {
+    height: 32px;
+    width: 32px;
+    margin-right: 15px;
+  }
 }
 
-.project-links{
-    display: flex;
-    justify-content: center;
-    img.icon{
-        height: 32px;
-        width: 32px;
-        margin-right: 15px;
+.project-tags {
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+  max-width: 600px;
+  text-align: center;
+  flex-wrap: wrap;
+  span {
+    border-radius: 2px;
+    color: rgba(35, 0, 70, 1);
+    font-weight: 500;
+    line-height: 1;
+    margin-right: 5px;
+    padding: 0;
+    &::before {
+      content: "#";
+      font-weight: 700;
     }
-}
-
-.project-tags{
-    display: flex;
-    justify-content: center;
-    margin: 15px 0;
-    flex-wrap: wrap;
-    span{  
-        border-radius: 2px;
-        color: rgba(35, 0, 70, 1);
-        font-weight: 500;
-        line-height: 1;
-        margin-right: 5px;
-        padding: 0;
-        &::before{
-            content: "#";
-            font-weight: 700;
-        }
-    }
+  }
 }
