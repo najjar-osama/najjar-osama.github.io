@@ -300,7 +300,8 @@ body {
       margin-top: 85px; } }
 
 .project-wrapper {
-  height: auto; }
+  height: auto;
+  width: auto; }
 
 .project-image {
   margin: 0 auto;
@@ -311,6 +312,7 @@ body {
     width: 100%; }
   .project-image .company-logo {
     width: auto;
+    max-width: 80%;
     height: auto;
     max-height: 200px;
     background-color: rgba(35, 0, 70, 0.1);
