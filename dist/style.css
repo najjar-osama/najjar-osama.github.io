@@ -325,11 +325,19 @@ body {
   margin: 20px 0px;
   text-align: center;
   font-size: 24px; }
+  @media screen and (max-width: 786px) {
+    .project-description h1 {
+      font-size: 20px;
+      margin: 10px 0px; } }
 
 .project-description p {
   color: #444;
   margin: 10px 0px;
   text-align: center; }
+  @media screen and (max-width: 786px) {
+    .project-description p {
+      font-size: 14px;
+      margin: 5px 0px; } }
 
 .project-links {
   display: flex;
@@ -346,6 +354,10 @@ body {
   max-width: 600px;
   text-align: center;
   flex-wrap: wrap; }
+  @media screen and (max-width: 786px) {
+    .project-tags {
+      font-size: 13px;
+      margin: 5px 10px; } }
   .project-tags span {
     border-radius: 2px;
     color: #230046;
@@ -353,6 +365,9 @@ body {
     line-height: 1;
     margin-right: 5px;
     padding: 0; }
+    @media screen and (max-width: 786px) {
+      .project-tags span {
+        margin-right: 3px; } }
     .project-tags span::before {
       content: "#";
       font-weight: 700; }
