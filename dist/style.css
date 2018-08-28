@@ -293,12 +293,6 @@ body {
   min-height: 300px; }
 
 /* Projects Carousel */
-.projects-carousel {
-  transition: margin 0.2s ease-in-out; }
-  @media screen and (max-height: 606px) {
-    .projects-carousel {
-      margin-top: 85px; } }
-
 .project-wrapper {
   height: auto;
   width: auto; }

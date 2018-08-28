@@ -12,10 +12,7 @@
 
 /* Projects Carousel */
 .projects-carousel {
-  transition: margin 0.2s ease-in-out;
-  @media screen and (max-height: $ms) {
-    margin-top: 85px;
-  }
+  
 }
 
 .project-wrapper {
