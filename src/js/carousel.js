@@ -7,6 +7,7 @@ const initCarousel = () => {
     cellAlign: "center",
     contain: true,
     pauseAutoPlayOnHover: true,
+    prevNextButtons : (document.body.clientWidth >= 768 ? true : false),
     freeScroll : true,
     wrapAround : true
   });
