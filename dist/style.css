@@ -39,10 +39,10 @@ body {
 
 .with-nav-content {
   padding-top: 45px; }
-  @media (min-width: 425px) {
+  @media screen and (min-width: 425px) {
     .with-nav-content {
       padding-top: 50px; } }
-  @media (min-width: 786px) {
+  @media screen and (min-width: 786px) {
     .with-nav-content {
       padding-top: 60px; } }
 
@@ -71,10 +71,10 @@ body {
   margin: 0px 10px 0px 0px;
   padding: 0 15px;
   transition: background-color .75s ease-in-out; }
-  @media (min-width: 425px) {
+  @media screen and (min-width: 425px) {
     .nav-list-item {
       height: 50px; } }
-  @media (min-width: 786px) {
+  @media screen and (min-width: 786px) {
     .nav-list-item {
       height: 60px; } }
   .nav-list-item a {
@@ -82,10 +82,10 @@ body {
     font-size: 16px;
     text-decoration: none;
     transition: font-size,background-color 0.2s ease-in-out; }
-  @media (min-width: 425px) {
+  @media screen and (min-width: 425px) {
     .nav-list-item a {
       font-size: 18px; } }
-  @media (min-width: 786px) {
+  @media screen and (min-width: 786px) {
     .nav-list-item a {
       font-size: 20px; } }
 
@@ -161,10 +161,10 @@ body {
     margin-bottom: 15px;
     transition: height 0.2s ease-in-out;
     width: auto; }
-  @media (min-width: 425px) {
+  @media screen and (min-width: 425px) {
     .hero-image img {
       height: 250px; } }
-  @media (min-width: 786px) {
+  @media screen and (min-width: 786px) {
     .hero-image img {
       height: 300px; } }
 
@@ -177,10 +177,10 @@ body {
     line-height: 1;
     margin: 0;
     transition: font-size 0.2s ease-in-out; }
-  @media (min-width: 425px) {
+  @media screen and (min-width: 425px) {
     .hero-title h1 {
       font-size: 40px; } }
-  @media (min-width: 786px) {
+  @media screen and (min-width: 786px) {
     .hero-title h1 {
       font-size: 55px; } }
 
@@ -203,17 +203,17 @@ body {
     content: "...";
     display: block;
     font-size: 40px; }
-  @media (min-width: 425px) {
+  @media screen and (min-width: 425px) {
     .hero-subtitle {
       font-size: 16px; }
     .hero-subtitle .qoute {
       font-size: 24px; } }
-  @media (min-width: 606px) {
+  @media screen and (min-width: 606px) {
     .hero-subtitle {
       font-size: 20px; }
     .hero-subtitle .qoute {
       font-size: 26px; } }
-  @media (min-width: 786px) {
+  @media screen and (min-width: 786px) {
     .hero-subtitle {
       font-size: 26px; }
     .hero-subtitle .qoute {
