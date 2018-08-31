@@ -95,7 +95,7 @@
     display: block;
     font-size: 40px;
   }
-  .line-main{
+  .line--main{
     font-size:14px; 
     @media screen and(min-width: $xs) {
     
@@ -103,14 +103,14 @@
         font-size: 16px;
       }
     }
-    @media screen and(min-width: $xs) {
+    @media screen and(min-width: $ms) {
     
       &{
         font-size: 25px;
       }
     }
     @media screen and (min-width: $sm) {
-      .qoute {
+      & {
         font-size: 28px;
       }
     }
@@ -123,14 +123,14 @@
           font-size: 14px;
         }
       }
-      @media screen and(min-width: $xs) {
+      @media screen and(min-width: $ms) {
     
         &{
           font-size: 20px;
         }
       }
       @media screen and (min-width: $sm) {
-        .qoute {
+        &{
           font-size: 25px;
         }
       }

@@ -201,27 +201,27 @@ body {
     content: "...";
     display: block;
     font-size: 40px; }
-  .hero-subtitle .line-main {
+  .hero-subtitle .line--main {
     font-size: 14px; }
     @media screen and (min-width: 425px) {
-      .hero-subtitle .line-main {
+      .hero-subtitle .line--main {
         font-size: 16px; } }
-    @media screen and (min-width: 425px) {
-      .hero-subtitle .line-main {
+    @media screen and (min-width: 606px) {
+      .hero-subtitle .line--main {
         font-size: 25px; } }
     @media screen and (min-width: 786px) {
-      .hero-subtitle .line-main .qoute {
+      .hero-subtitle .line--main {
         font-size: 28px; } }
   .hero-subtitle .line--sub {
     font-size: 12px; }
     @media screen and (min-width: 425px) {
       .hero-subtitle .line--sub {
         font-size: 14px; } }
-    @media screen and (min-width: 425px) {
+    @media screen and (min-width: 606px) {
       .hero-subtitle .line--sub {
         font-size: 20px; } }
     @media screen and (min-width: 786px) {
-      .hero-subtitle .line--sub .qoute {
+      .hero-subtitle .line--sub {
         font-size: 25px; } }
   @media screen and (min-width: 425px) {
     .hero-subtitle .qoute {
