@@ -239,6 +239,9 @@ body {
     color: aliceblue;
     font-size: 46px; }
 
+.cursor {
+  animation: cursor-anim .6s linear 0s infinite alternate-reverse; }
+
 @keyframes hero-anim {
   from {
     opacity: 0;
@@ -294,6 +297,30 @@ body {
     background-position: top right; }
   to {
     background-position: bottom left; } }
+
+@keyframes cursor-anim {
+  from {
+    color: transparent; }
+  to {
+    color: #fff; } }
+
+@-moz-keyframes cursor-anim {
+  from {
+    color: transparent; }
+  to {
+    color: #fff; } }
+
+@-o-keyframes cursor-anim {
+  from {
+    color: transparent; }
+  to {
+    color: #fff; } }
+
+@-webkit-keyframes cursor-anim {
+  from {
+    color: transparent; }
+  to {
+    color: #fff; } }
 
 .carousel-wrapper {
   height: auto;
