@@ -81,12 +81,11 @@
   color: #fff;
   margin: 20px 0px 0px 0px;
   text-align: center;
-  font-size: 14px;
   transition: font-size 0.2s ease-in-out;
   .qoute {
     font-size: 20px;
     line-height: 1;
-    margin: 5px;
+    //margin: 5px;
   }
   .line {
     display: block;
@@ -96,26 +95,58 @@
     display: block;
     font-size: 40px;
   }
-  @media screen and(min-width: $xs) {
-    & {
-      font-size: 16px;
+  .line-main{
+    font-size:14px; 
+    @media screen and(min-width: $xs) {
+    
+      &{
+        font-size: 16px;
+      }
     }
+    @media screen and(min-width: $xs) {
+    
+      &{
+        font-size: 25px;
+      }
+    }
+    @media screen and (min-width: $sm) {
+      .qoute {
+        font-size: 28px;
+      }
+    }
+  }
+  .line--sub{
+      font-size: 12px;
+      @media screen and(min-width: $xs) {
+    
+        &{
+          font-size: 14px;
+        }
+      }
+      @media screen and(min-width: $xs) {
+    
+        &{
+          font-size: 20px;
+        }
+      }
+      @media screen and (min-width: $sm) {
+        .qoute {
+          font-size: 25px;
+        }
+      }
+  }
+  @media screen and(min-width: $xs) {
+    
     .qoute {
       font-size: 24px;
     }
   }
   @media screen and(min-width: $ms) {
-    & {
-      font-size: 20px;
-    }
     .qoute {
       font-size: 26px;
     }
   }
   @media screen and (min-width: $sm) {
-    & {
-      font-size: 26px;
-    }
     .qoute {
       font-size: 28px;
     }
