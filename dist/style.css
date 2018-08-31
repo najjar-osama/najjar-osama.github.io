@@ -365,6 +365,12 @@ body {
     .project-tags span::before {
       content: "#";
       font-weight: 700; }
+
+*::-webkit-scrollbar {
+  background: #AAA; }
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(35, 0, 70, 0.8); }
 /*! normalize.scss v0.1.0 | MIT License | based on git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
