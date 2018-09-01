@@ -3,11 +3,13 @@ html {
   color: #333; }
 
 body {
-  font-family: "Ubuntu","monospace","Proxima Nova","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif; }
+  font-family: "Ubuntu", "monospace", "Proxima Nova", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 
 * {
   box-sizing: border-box;
-  font-family: "Ubuntu","monospace","Proxima Nova","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif; }
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: "Ubuntu", "monospace", "Proxima Nova", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 
 .full-page {
   min-height: 100vh;
@@ -66,6 +68,7 @@ body {
 
 .nav-list-item {
   align-items: center;
+  cursor: pointer;
   display: flex;
   height: 45px;
   margin: 0px 10px 0px 0px;
@@ -412,6 +415,37 @@ body {
 
 *::-webkit-scrollbar-thumb {
   background: #260053; }
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 1;
+  padding: 30px 0px;
+  width: 100%; }
+  @media screen and (min-width: 786px) {
+    .about-wrapper {
+      flex-direction: row;
+      padding: 100px 0px; } }
+
+.about-block {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  box-shadow: 0 10px 15px 0px rgba(0, 0, 0, 0.5);
+  flex: 1;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 10px;
+  transition: margin 0.2s ease-in-out;
+  width: 100%; }
+  @media screen and (min-width: 786px) {
+    .about-block {
+      width: 50%; } }
+
+@media screen and (min-width: 786px) {
+  .about-block:first-child {
+    margin-right: 5%; } }
 /*! normalize.scss v0.1.0 | MIT License | based on git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
