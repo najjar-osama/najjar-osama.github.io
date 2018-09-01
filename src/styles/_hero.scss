@@ -29,26 +29,7 @@
 
 
 .hero-image {
-  text-align: center;
-  img {
-    border: 10px solid #210042;
-    border-radius: 50%;
-    box-shadow: 15px 10px 20px 0px rgba(0,0,0,0.3);
-    height: 200px;
-    margin-bottom: 15px;
-    transition: height 0.2s ease-in-out;
-    width: auto;
-  }
-  @media screen and (min-width: $xs) {
-    img {
-      height: 250px;
-    }
-  }
-  @media screen and(min-width: $sm) {
-    img {
-      height: 300px;
-    }
-  }
+  margin-bottom: 15px;
 }
 
 .hero-title {

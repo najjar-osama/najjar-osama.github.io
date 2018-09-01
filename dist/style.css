@@ -155,21 +155,7 @@ body {
   display: block; }
 
 .hero-image {
-  text-align: center; }
-  .hero-image img {
-    border: 10px solid #210042;
-    border-radius: 50%;
-    box-shadow: 15px 10px 20px 0px rgba(0, 0, 0, 0.3);
-    height: 200px;
-    margin-bottom: 15px;
-    transition: height 0.2s ease-in-out;
-    width: auto; }
-  @media screen and (min-width: 425px) {
-    .hero-image img {
-      height: 250px; } }
-  @media screen and (min-width: 786px) {
-    .hero-image img {
-      height: 300px; } }
+  margin-bottom: 15px; }
 
 .hero-title {
   text-decoration: none;
@@ -446,6 +432,32 @@ body {
 @media screen and (min-width: 786px) {
   .about-block:first-child {
     margin-right: 5%; } }
+
+.image {
+  display: block;
+  height: 200px;
+  margin-bottom: 15px;
+  transition: height 0.2s ease-in-out;
+  width: auto; }
+  @media screen and (min-width: 425px) {
+    .image {
+      height: 250px; } }
+  @media screen and (min-width: 786px) {
+    .image {
+      height: 300px; } }
+
+.image--circle {
+  border-radius: 50%; }
+
+.image--bordered {
+  border: 10px solid #210042; }
+
+.image--center {
+  margin-left: auto;
+  margin-right: auto; }
+
+.image--shadow {
+  box-shadow: 15px 10px 20px 0px rgba(0, 0, 0, 0.3); }
 /*! normalize.scss v0.1.0 | MIT License | based on git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
