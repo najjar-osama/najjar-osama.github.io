@@ -408,7 +408,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   flex: 1;
-  padding: 30px 0px;
+  padding: 60px 0px;
   width: 100%; }
   @media screen and (min-width: 786px) {
     .about-wrapper {
@@ -435,10 +435,13 @@ body {
 
 .about-image.image {
   height: 150px;
-  transform: translate(-200px, -50px); }
+  transform: translate(0px, -100px); }
   @media screen and (min-width: 425px) {
     .about-image.image {
       height: 200px; } }
+  @media screen and (min-width: 786px) {
+    .about-image.image {
+      height: 250px; } }
   @media screen and (min-width: 786px) {
     .about-image.image {
       height: 250px; } }
