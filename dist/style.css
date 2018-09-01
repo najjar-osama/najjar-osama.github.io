@@ -433,6 +433,16 @@ body {
   .about-block:first-child {
     margin-right: 5%; } }
 
+.about-image.image {
+  height: 150px;
+  transform: translate(-200px, -50px); }
+  @media screen and (min-width: 425px) {
+    .about-image.image {
+      height: 200px; } }
+  @media screen and (min-width: 786px) {
+    .about-image.image {
+      height: 250px; } }
+
 .image {
   display: block;
   height: 200px;

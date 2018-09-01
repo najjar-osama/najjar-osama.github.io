@@ -2,6 +2,7 @@ import "./images/science_pattern.png";
 import "./images/arabic_pattern.png";
 import "./images/intro_bg.png";
 import "./images/me_1.jpg";
+import "./images/me_5.jpg";
 import "./images/favicon.png";
 import "./images/pattern_transparent_4.png";
 import "./images/github.png";

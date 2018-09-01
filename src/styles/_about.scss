@@ -1,4 +1,3 @@
-
 .about-wrapper {
   display: flex;
   flex-direction: column;
@@ -16,7 +15,7 @@
 .about-block {
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 20px;
-  box-shadow: 0 10px 15px 0px rgba(0,0,0,.5);
+  box-shadow: 0 10px 15px 0px rgba(0, 0, 0, 0.5);
   flex: 1;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -24,7 +23,7 @@
   transition: margin 0.2s ease-in-out;
   width: 100%;
   @media screen and (min-width: $sm) {
-      width: 50%;
+    width: 50%;
   }
 }
 .about-block:first-child {
@@ -33,7 +32,14 @@
   }
 }
 
-
-.about-image{
-
+.about-image.image {
+    height: 150px;
+    transform: translate(-200px,-50px);
+    
+  @media screen and (min-width: $xs) {
+    height: 200px;
+  }
+  @media screen and(min-width: $sm) {
+    height: 250px;
+  }
 }
