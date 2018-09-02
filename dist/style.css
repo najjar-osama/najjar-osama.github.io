@@ -453,7 +453,7 @@ body {
   margin-top: -100px; }
   .about-body p {
     color: #fff;
-    font-size: 18px;
+    font-size: 15px;
     transition: font-size .2s ease-in-out; }
     @media screen and (min-width: 425px) {
       .about-body p {
