@@ -469,7 +469,7 @@ body {
 .tech-list-item {
   cursor: pointer;
   flex: 1;
-  margin: 10px 20px;
+  margin: 10px;
   transition: transform .3s ease-in-out; }
   .tech-list-item:hover {
     transform: translateY(-15px); }
