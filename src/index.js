@@ -1,15 +1,12 @@
-import "./images/science_pattern.png";
-import "./images/arabic_pattern.png";
 import "./images/intro_bg.png";
 import "./images/me_1.jpg";
 import "./images/me_5.jpg";
 import "./images/favicon.png";
-import "./images/pattern_transparent_4.png";
+import "./images/bg_pattern.png";
 import "./images/github.png";
 import "./images/link.png";
 import "./images/mx_pwa.png";
 import "./images/mx_camera.png";
-import "./images/roboless.png";
 import "./images/mx_cke.png";
 import "./images/dbw.png";
 import "./images/dekra.png";
