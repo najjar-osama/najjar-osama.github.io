@@ -79,3 +79,20 @@
     text-align: center;
   }
 }
+
+.tech-list{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.tech-list-item{
+  flex: 1;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.tech-item{
+  display: block;
+  height: auto;
+  width: 64px;
+  margin: 0 auto;
+}
