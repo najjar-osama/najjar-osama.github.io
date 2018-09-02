@@ -401,7 +401,6 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex: 1;
   padding: 75px 0px 30px 0px;
   width: 100%; }
   @media screen and (min-width: 786px) {
@@ -416,7 +415,7 @@ body {
   flex: 1;
   margin-top: 5%;
   margin-bottom: 5%;
-  padding: 10px;
+  padding: 15px;
   transition: margin 0.2s ease-in-out;
   width: 100%; }
   @media screen and (min-width: 786px) {
@@ -439,6 +438,23 @@ body {
   @media screen and (min-width: 786px) {
     .about-image.image {
       height: 250px; } }
+
+.about-title {
+  color: #fff;
+  font-size: 24px;
+  margin: 0;
+  text-align: center; }
+
+.about-body {
+  margin-top: -100px; }
+  .about-body p {
+    color: #fff;
+    font-size: 20px; }
+  .about-body p:last-child::after {
+    content: "...";
+    display: block;
+    font-size: 40px;
+    text-align: center; }
 
 .image {
   display: block;
