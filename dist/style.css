@@ -40,13 +40,13 @@ body {
   z-index: 99; }
 
 .with-nav-content {
-  padding-top: 45px; }
-  @media screen and (min-width: 425px) {
-    .with-nav-content {
-      padding-top: 50px; } }
-  @media screen and (min-width: 786px) {
-    .with-nav-content {
-      padding-top: 60px; } }
+  padding-top: 80px;
+  /*@media screen and(min-width: $xs) {
+    padding-top: 50px;
+  }
+  @media screen and(min-width: $sm) {
+    padding-top: 60px;
+  }*/ }
 
 .nav--dark {
   background-color: rgba(35, 0, 70, 0.8); }
