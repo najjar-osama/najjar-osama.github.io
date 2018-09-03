@@ -485,6 +485,50 @@ body {
   font-size: 17px;
   text-align: center; }
 
+.contact-header {
+  color: #230046;
+  font-size: 28px;
+  margin: 0px 0px 15px 0px;
+  text-align: center;
+  transition: font-size 0.2s ease-in-out; }
+  @media screen and (min-width: 425px) {
+    .contact-header {
+      font-size: 32px; } }
+  @media screen and (min-width: 606px) {
+    .contact-header {
+      font-size: 36px; } }
+  @media screen and (min-width: 786px) {
+    .contact-header {
+      font-size: 38px; } }
+
+.contact-subheader {
+  color: #230046;
+  font-size: 20px;
+  margin: 0px 0px 15px 0px;
+  text-align: center;
+  transition: font-size 0.2s ease-in-out; }
+  @media screen and (min-width: 425px) {
+    .contact-subheader {
+      font-size: 22px; } }
+  @media screen and (min-width: 606px) {
+    .contact-subheader {
+      font-size: 24px; } }
+  @media screen and (min-width: 786px) {
+    .contact-subheader {
+      font-size: 26px; } }
+
+.contact-item {
+  margin-right: 10px; }
+  .contact-item:last-child {
+    margin-right: 0px; }
+  .contact-item img {
+    height: auto;
+    width: 32px;
+    transition: height,width  .2s ease-in-out; }
+    @media screen and (min-width: 425px) {
+      .contact-item img {
+        width: 64px; } }
+
 .image {
   display: block;
   height: 200px;
