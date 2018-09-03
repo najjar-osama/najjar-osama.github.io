@@ -10,11 +10,16 @@ const setScrollHandler = () => {
       if (!Number.isInteger(window.scrollY / window.lastScrollStep)) {
         window.lastScrollStep = window.lastScrollStep + scrollStep;
         nav.classList.add("nav--dark");
+        document.body.classList.add("to-top-visible");
       }
       
     } else {
       window.lastScrollStep = window.lastScrollStep - scrollStep;
-      window.scrollY === 0 ? nav.classList.remove("nav--dark") : nav;
+      if(window.scrollY === 0){
+        nav.classList.remove("nav--dark");
+        document.body.classList.remove("to-top-visible");
+      }
+     
       
     } 
   });
